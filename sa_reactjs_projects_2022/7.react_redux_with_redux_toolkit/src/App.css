@@ -1,0 +1,46 @@
+.App{
+  
+}
+
+.counter-wrapper {
+  background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.theme-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.button {
+  appearance: none;
+  background: none;
+  font-size: 32px;
+  padding-left: 12px;
+  padding-right: 12px;
+  outline: none;
+  border: 2px solid transparent white;
+  color: white;
+  padding-bottom: 4px;
+  cursor: pointer;
+  background-color: gray;
+  border-radius: 2px;
+  transition: all 0.15s;
+}
+
+.value {
+  font-size: 40px;
+  padding-left: 16px;
+  padding-right: 16px;
+  
+}
+
+.textbox {
+  font-size: 32px;
+  padding: 2px;
+  margin-right: 10px;
+}
