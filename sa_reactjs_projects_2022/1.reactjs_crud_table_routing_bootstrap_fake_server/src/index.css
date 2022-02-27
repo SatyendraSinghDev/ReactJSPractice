@@ -1,0 +1,17 @@
+/* GLOBAL CSS */
+.not-found {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* HOME COMPONENT */
+.table-hover tbody tr:hover td,
+.table-hover tbody tr:hover th {
+  background-color: #19d1b2;
+}
